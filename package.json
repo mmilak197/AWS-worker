@@ -1,0 +1,26 @@
+{
+  "name": "digestServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+   "dependencies": {
+    "async": "^0.7.0",
+    "aws-sdk": "^2.0.0-rc13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmilak197/AWS-worker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmilak197/AWS-worker/issues"
+  },
+  "homepage": "https://github.com/mmilak197/AWS-worker"
+}

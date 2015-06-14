@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '0.10'
+before_install: npm install -g mocha
+deploy:
+  provider: s3
+  access_key_id: AKIAJFTNH5I4DGCUB7TA
+  secret_access_key:
+    secure: mt785DGlgDnLUc1Z7QvIJj8/pLd4lwUbFWnIrwZATD9gaxrAhfr7+edtjvFAdP1ZWh2d2VYtXGxa87cREJ6c5IbHYTjzXeyWSLq/w35IIOYeDyXKss/3Yq7rMnIlH4AsanfvJEx4rAcIF/uAVol4VJwGBvByNYxbA2vUQ8YaJrk=
+  bucket: milak
+  upload-dir: appWorker
+  acl: public_read
+  on:
+    repo: mmilak197/AWS-worker
